@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_068b9074f05e06746a5c00bae8358eba58b43d87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mssinfotech/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_8855653e9717a79d491739a41918169f0718dea3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_e0d0bcf49206f8c2a715f91d2b8204ab0200c096/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bb28ec1c4eed74fe83ddc8f37337cfe802a6745">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6e25d737a344374810ffd56f4236a74ca223a143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_2de2b602e3a45ed5eba8d84214731acbadd410d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_a12c803e2426601078d6693a3153e4b7ea09a0db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bbec43e136654f0bdd8efec5841d0b2ebd602717">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d2b6e6e5b7b21c73262b770a065e52bd8381094f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_49e98dbb6f87bbf86cb112bd7776a2ba4dff17e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_75a08971b50af9cf6724f8db22c98b659f36b96c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_7109fb89602c2908d70959e0eefa64e21225ad9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/libs/gcm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/2/gcm_12a835b73ae604a5ce2508baaca6b0d5283c632a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_49a79e1cd8088728eed5b2570a81d952621c42b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Documents/android/ITAV/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Applications/Documents/android/ITAV/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_4382e0a0e45a307eebb0098703b368267807e871/classes.dex" />
+    </item>
+
+</items>
