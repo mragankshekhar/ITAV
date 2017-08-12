@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1, 
+         maximum-scale = 1, minimum-scale = 1, user-scalable = no, minimal-ui" />
+      <meta name = "apple-mobile-web-app-capable" content = "yes" />
+      <meta name = "apple-mobile-web-app-status-bar-style" content = "black" />
+      <title>My App</title>
+      <link rel = "stylesheet" href = "css/mss.css" />
+       <script src="js/jquery-1.12.4.min.js"></script>
+       <script src="js/jquery.form.js"></script>
+   </head>
+   <body  class = "theme-green">
+      <div class = "statusbar-overlay"></div>
+      <div class = "panel-overlay"></div>
+      
+      <div class = "panel panel-left panel-cover">
+			<div class="content-block1 center">
+			<div style="margin-top:5px">
+                <a href="profile.html" class="ms-link close-panel">
+                    <img src="img/avatar.png" class="avatar lazy" id="avatar"/><br/>
+                    <span class="fullname"></span></a>
+			</div>
+			</div>
+              <div class="list-block">
+                <ul>
+                  <li><a href="service.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-customer_service"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="SERVICE">Customer Service</span></div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="about.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-about"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="ABOUT">About</span> ITAV</div>
+                        </div>
+                      </div></a></li>
+
+                  <li><a href="faq.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-faq"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="FAQ">FAQ</span></div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="setting.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-setting"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="SETTING">Setting</span></div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="feedback.html" class="item-link close-panel">
+                  <div class="item-content">
+                    <div class="item-media"><i class="icon icon-nav icon-feedback"></i></div>
+                    <div class="item-inner">
+                      <div class="item-title"><span data-lang="FEEDBACK">Feedback</span></div>
+                    </div>
+                  </div></a></li>
+                  <li><a href="privedy_policy.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-privecy_policy"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="PRIVACY_POLICY">Privacy policy</span></div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="terms_of_uses.html" class="item-link close-panel">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-terms"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="TERMS_OF_USES">Terms of Use</span></div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" onclick="Android.ShareIt('Share this App from here')" class="item-link">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-share"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="SHARE">Share</span> </div>
+                        </div>
+                      </div></a></li>
+                  <li><a href="#" onclick="Android.close()" class="item-link">
+                      <div class="item-content">
+                        <div class="item-media"><i class="icon icon-nav icon-exit"></i></div>
+                        <div class="item-inner">
+                          <div class="item-title"><span data-lang="EXIT">Exit</span> </div>
+                        </div>
+                      </div></a></li>
+                </ul>
+              </div>
+      </div>
+      
+      <div class = "views">
+         <div class = "view view-main">
+            <div class = "navbar  mss-navbar">
+               <div class = "navbar-inner mss-navbar-inner">
+                  <div class = "center sliding">
+                      <a href = "#" class = "link icon-only open-panel"><i class = "icon icon-bars"></i></a>
+                  </div>
+                  <div class = "right">
+                      <span class="right-top-icon"><i class="icon icon-nav icon-map"></i></span>
+                  </div>
+               </div>
+            </div>
+            
+            <div class = "pages navbar-through toolbar-through">
+               <div data-page = "index" class = "page">
+                  <div class = "page-content">
+                     <div class="index-header">
+                         <p>Where are you going...</p>
+                         <a href="">+ add distination</a>
+                         <div class="buttons-row theme-orange button-row-margin25">
+                            <button href="#" class="button button-fill button-green">Discover</button>
+                             <button href="#" class="button button-fill button-green">Plan</button>
+                         </div>
+                     </div>
+
+                     <div class = "list-block">
+                         <div class="content-block-title">Recently viewed</div>
+                         <div class="swiper-container swiper-2">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                   <div class="card demo-card-header-pic">
+                                       <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                   </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <div class="card demo-card-header-pic">
+                                        <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                    </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <hr/>
+                         <div class="content-block-title">TOP for You</div>
+                         <div class="swiper-container swiper-2">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <hr/>
+                         <div class="content-block-title">TOP Event</div>
+                         <div class="swiper-container swiper-2">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                                 <div class="swiper-slide">
+                                     <div class="card demo-card-header-pic">
+                                         <div style="background-image:url(img/places1.jpg);" valign="bottom" class="card-header color-white no-border">Barbate, Spain</div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <br/><br/><br/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+            <div class = "toolbar footer-link">
+               <div class = "toolbar-inner">
+                  <a href = "#" class = "link"><i class="f7 f7-icons">search</i><span>Discover</span></a>
+                  <a href = "#" class = "link"><i class="f7 f7-icons">heart</i><span>My Trip</span></a>
+                  <a href = "profile.html" class = "link"><i class="f7 f7-icons">person</i><span>Me</span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script type = "text/javascript" src = "js/framework7.min.js"></script>
+      <script>
+      (function () {
+        if (Framework7.prototype.device.android) {
+              Dom7('head').append(
+                  '<link rel="stylesheet" href="css/framework7.material.min.css">' +
+                  '<link rel="stylesheet" href="css/framework7.material.colors.min.css">' +
+                  '<link rel="stylesheet" href="css/my-app.material.css">'
+              );
+          }
+          else {
+              Dom7('head').append(
+                  '<link rel="stylesheet" href="css/framework7.ios.min.css">' +
+                  '<link rel="stylesheet" href="css/framework7.ios.colors.min.css">' +
+                  '<link rel="stylesheet" href="css/my-app.ios.css">'
+              );
+          }
+      })();
+    var myApp = new Framework7();
+    var $$ = Dom7;
+    var mainView = myApp.addView('.view-main', {
+        dynamicNavbar: true
+    });
+
+    var mySwiper2 = myApp.swiper('.swiper-2', {
+      pagination:'.swiper-2 .swiper-pagination',
+      spaceBetween: 20,
+      slidesPerView: 2
+    });
+    </script>
+      <script type="text/javascript" src="js/mss.js"></script>
+   </body>
+</html>

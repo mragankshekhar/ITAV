@@ -1,0 +1,32 @@
+$(document).ready(function(){
+    $("#p_uname").val(getCookie("fullname"));
+    $("#p_username").val(getCookie("username"));
+    $("#p_email").val(getCookie("email"));
+    $("#p_phone").val(getCookie("mobile"));
+    $("#p_gender").val(getCookie("gender"));
+    $("#p_dob").val(getCookie("dob"));
+    if(getCookie("is_public")=="1")$("#is_public").attr("checked","checked");
+    $("#p_avatar").attr("src",getCookie("avatar"));
+    $.getJSON("http://www.mssinfotech.in/itav/api/profile.php",{"type":"fetch-profile","uid":username,"pass":password},function(data){
+        if(data.status=="success"){
+            setCookie("uname",data.fullname,"365");
+            setCookie("username",data.username,"365");
+            setCookie("email",data.email,"365");
+            setCookie("phone",data.mobile,"365");
+            setCookie("gender",data.gender,"365");
+            setCookie("dob",data.dob,"365");
+            setCookie("is_public",data.is_public,"365")
+            setCookie("avatar","http://www.mssinfotech.in/itav/uploads/"+data.avatar,"365");
+            $("#p_uname").val(data.fullname);
+            $("#p_username").val(data.username);
+            $("#p_email").val(data.email);
+            $("#p_phone").val(data.mobile);
+            $("#p_gender").val(data.gender);
+            $("#p_dob").val(data.dob);
+            if(data.is_public=="1")$("#is_public").attr("checked","checked");
+            $("#p_avatar").attr("src","http://www.mssinfotech.in/itav/uploads/"+data.avatar);
+        }else{
+            Android.showToast("please check your network ")
+        }
+    })
+})

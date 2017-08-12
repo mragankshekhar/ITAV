@@ -1,0 +1,59 @@
+<div data-page="login-screen" class="page no-navbar no-toolbar no-swipeback">
+  <div class="page-content login-screen-content mss-screen">
+    <div class = "login-screen-title"><img src="img/logo.png"></div>
+                  
+                  <form autocomplete="off" method="post" class="form_ajax" action="http://www.mssinfotech.in/itav/api/login.php">
+                     <input type="hidden" name="type" value="login" />
+                      <input type="hidden" class="reg_id" name="reg_id">
+                      <input type="hidden" class="lang" name="lang">
+                      <input type="hidden" class="lat" name="lat">
+                      <input type="hidden" class="long" name="long">
+                     <div class = "list-block">
+                        <ul>
+                           <li>
+                              <div class="item-content">
+								<div class="item-media"><i class="icon f7-icons">person</i></div>
+								<div class="item-inner">
+								  <div class="item-input">
+									<input type="text" name="uid"  data-placeholder_lang="USERNAME" placeholder="Your Login Name">
+								  </div>
+								</div>
+							  </div>
+                           </li>
+                           
+                           <li>
+                              <div class="item-content">
+								<div class="item-media"><i class="icon f7-icons">lock</i></div>
+								<div class="item-inner">
+								  <div class="item-input">
+									<input type="password" name="pass" data-placeholder_lang="PASSWORD" placeholder="Your Passsword">
+								  </div>
+								</div>
+							  </div>
+                           </li>
+                        </ul>
+                     </div>
+                     
+                     <div class = "list-block ms-block">
+                        <ul>
+							<li><button style="width:100%" type="submit" class = "button button-fill mss-button-signin"><span data-lang="LOGIN">Log In</span></button>
+							<li class="center"><a href = "register.html" class="close-login-screen"><span data-lang="OR">Or</span> <span data-lang="CREATE_NEW_PROFILE">Create a new profile</span></a></li>
+                        </ul>
+                        
+                        <div class = "list-block-label">
+                           <p><a href = "#"><span data-lang="LOGIN_WITH">Login with Social Media</span></a></p>
+                        </div>
+                        
+                        <p class="buttons-row">
+							<a href="#" class="button button-fill button-raised color-blue"><i class="f7-icons">social_facebook</i> <span data-lang="FACEBOOK">Facebook</span></a>
+						  <a href="#" class="button button-fill button-raised color-red"><i class="f7-icons">social_googleplus</i> <span data-lang="GOOGLE">Google</span></a>
+						</p>   
+                        
+                       
+                     </div>
+                  </form>
+                   <div class = "list-block-label">
+                           <p><a href = "#" class = "close-login-screen ms-lang"><span data-lang="CHANGE_LANGUAGE">Click here to Change language</span></a></p>
+                        </div>
+  </div>
+</div>   
